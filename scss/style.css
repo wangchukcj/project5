@@ -1,0 +1,865 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+.header-section .container-fluid {
+  padding: 0;
+}
+.header-section .container-fluid .heading-contacts {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 50px 0px 50px;
+  border-bottom: 1px solid;
+}
+.header-section .container-fluid .heading-contacts .contact-details {
+  display: flex;
+  width: 80%;
+}
+.header-section .container-fluid .heading-contacts .contact-details p {
+  border-right: 1px solid #676767;
+  border-left: 1px solid #676767;
+  margin-right: 12px;
+  margin-left: 12px;
+  padding-right: 12px;
+  padding-left: 12px;
+}
+.header-section .container-fluid .heading-contacts .contact-details p:nth-child(3) {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+.header-section .container-fluid .heading-contacts .contact-details p:nth-child(4) {
+  border-right: none;
+  padding-right: 25px;
+}
+.header-section .container-fluid .heading-contacts .contact-socials {
+  width: 25%;
+  text-align: end;
+  letter-spacing: 18px;
+}
+.header-section .container-fluid .heading-contacts .contact-socials :nth-child(1) {
+  transition: all 0.4s ease;
+}
+.header-section .container-fluid .heading-contacts .contact-socials :nth-child(1):hover {
+  transform: scale(1.5);
+  cursor: pointer;
+}
+.header-section .container-fluid .heading-contacts .contact-socials :nth-child(2) {
+  transition: all 0.4s ease;
+}
+.header-section .container-fluid .heading-contacts .contact-socials :nth-child(2):hover {
+  transform: scale(1.5);
+  cursor: pointer;
+}
+.header-section .container-fluid .heading-contacts .contact-socials :nth-child(3) {
+  transition: all 0.4s ease;
+}
+.header-section .container-fluid .heading-contacts .contact-socials :nth-child(3):hover {
+  transform: scale(1.5);
+  cursor: pointer;
+}
+.header-section .container-fluid .heading-contacts .contact-socials :nth-child(4) {
+  transition: all 0.4s ease;
+}
+.header-section .container-fluid .heading-contacts .contact-socials :nth-child(4):hover {
+  transform: scale(1.5);
+  cursor: pointer;
+}
+.header-section .container-fluid .navbar-expand-lg {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.header-section .container-fluid .navbar-expand-lg .container-fluid {
+  justify-content: space-between;
+  padding: 20px 50px 20px 50px;
+  border-bottom: 1px solid #676767;
+}
+.header-section .container-fluid .navbar-expand-lg .container-fluid .nav-logo {
+  transition: all 0.4s ease;
+}
+.header-section .container-fluid .navbar-expand-lg .container-fluid .nav-logo:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.header-section .container-fluid .navbar-expand-lg .container-fluid .nav-menulist .nav-details .mb-lg-0 {
+  gap: 20px;
+  padding-right: 20px;
+}
+.header-section .container-fluid .navbar-expand-lg .container-fluid .nav-menulist .nav-details .mb-lg-0 li a {
+  padding: 8px;
+  text-decoration: none;
+  text-align: center;
+}
+.header-section .container-fluid .navbar-expand-lg .container-fluid .nav-menulist .nav-details .mb-lg-0 a {
+  color: #000;
+}
+.header-section .container-fluid .navbar-expand-lg .container-fluid .nav-menulist .nav-details .mb-lg-0 .nav-item {
+  transition: all 0.6s ease;
+}
+.header-section .container-fluid .navbar-expand-lg .container-fluid .nav-menulist .nav-details .mb-lg-0 .nav-item:hover {
+  border-bottom: 1px solid #10F2C5;
+  cursor: pointer;
+}
+.header-section .container-fluid .navbar-expand-lg .container-fluid .nav-menulist .d-flex .btn-dark {
+  background-color: #000;
+  border: 1px solid #fff;
+  transition: all 0.4s ease;
+}
+.header-section .container-fluid .navbar-expand-lg .container-fluid .nav-menulist .d-flex .btn-dark:hover {
+  background-color: #10F2C5;
+  color: #000;
+  font-weight: bold;
+}
+
+.hero_section {
+  width: 100%;
+  background-image: url(../image/img1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.hero_section .cont {
+  padding: 264px 816px 264px 62px;
+}
+.hero_section .cont .head {
+  display: inline;
+}
+.hero_section .cont .head h1 {
+  color: aliceblue;
+  font-size: 56px;
+}
+.hero_section .cont .head p {
+  color: aliceblue;
+  font-size: 18px;
+}
+.hero_section .cont .head button {
+  padding: 10px 15px;
+  background-color: #000000;
+  border-radius: 5px;
+  margin-right: 16px;
+}
+.hero_section .cont .head button a {
+  text-decoration: none;
+  color: #fff;
+  padding: 12px 24px;
+}
+.hero_section .cont .head a {
+  padding: 12px 24px;
+  text-decoration: none;
+  box-sizing: border-box;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.about_section {
+  width: 100%;
+}
+.about_section .cont {
+  display: flex;
+}
+.about_section .cont .about_head {
+  padding: 250px 400px 250px 64px;
+}
+.about_section .cont h1 {
+  font-size: 48px;
+}
+.about_section .cont p {
+  font-size: 18px;
+  padding-bottom: 48px;
+  color: #000000;
+}
+.about_section .cont button {
+  padding: 8px 20px 8px 20px;
+  background-color: #000000;
+  border-radius: 5px;
+}
+.about_section .cont button a {
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+}
+.about_section .doc {
+  padding: 112px 64px 112px;
+  height: 640px;
+}
+
+.choose_section {
+  width: 100%;
+  height: 1200px;
+  background-color: #ecebeb;
+}
+.choose_section .cont .choose_head {
+  padding: 112px 336px 30px 336px;
+  text-align: center;
+}
+.choose_section .cont .choose_head h1 {
+  font-size: 48px;
+}
+.choose_section .cont .choose_head p {
+  font-size: 18px;
+}
+.choose_section .cont .choose_body {
+  display: flex;
+  padding: 80px 64px 48px 64px;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+.choose_section .cont .choose_body .choose1 {
+  padding: 20px 48px 20px 35px;
+  text-align: center;
+}
+.choose_section .cont .choose_body .choose1 .div1 {
+  padding: 0px 31.5px 64px 31.5px;
+}
+.choose_section .cont .choose_body .choose1 .div1 h1 {
+  font-size: 24px;
+}
+.choose_section .cont .choose_body .choose1 .div1 p {
+  font-size: 16px;
+}
+.choose_section .cont .choose_body .choose1 .div2 {
+  padding: 32px 31.5px 0pc 31.5px;
+}
+.choose_section .cont .choose_body .choose1 .div2 h1 {
+  font-size: 24px;
+}
+.choose_section .cont .choose_body .choose1 .div2 p {
+  font-size: 16px;
+}
+.choose_section .cont .choose_body .im {
+  justify-content: center;
+}
+.choose_section .cont .choose_body .choose2 {
+  padding: 3px 30px 3px 48px;
+  text-align: center;
+}
+.choose_section .cont .choose_body .choose2 .div3 {
+  padding: 0px 31.5px 64px 31.5px;
+}
+.choose_section .cont .choose_body .choose2 .div3 h1 {
+  font-size: 24px;
+}
+.choose_section .cont .choose_body .choose2 .div3 p {
+  font-size: 16px;
+}
+.choose_section .cont .choose_body .choose2 .div4 {
+  padding: 32px 31.5px 0px 31.5px;
+}
+.choose_section .cont .choose_body .choose2 .div4 h1 {
+  font-size: 24px;
+}
+.choose_section .cont .choose_body .choose2 .div4 p {
+  font-size: 16px;
+}
+.choose_section .cont .btn {
+  padding-left: 780px;
+  justify-content: space-around;
+}
+.choose_section .cont .btn button {
+  margin-right: 20px;
+  padding: 13px 5px;
+  box-sizing: border-box;
+  border: 1.6px solid #000000;
+  background-color: #ecebeb;
+  border-radius: 5px;
+}
+.choose_section .cont .btn button a {
+  text-align: center;
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration: none;
+  color: #000000;
+  padding: 5px 5px;
+  font-weight: 500;
+}
+.choose_section .cont .btn > a {
+  color: rgb(15, 17, 17);
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+}
+.choose_section .cont .btn > a span {
+  margin-left: 10px;
+  font-size: 20px;
+}
+
+.Doctors_section {
+  width: 100%;
+}
+.Doctors_section .cont .doctors_head {
+  text-align: center;
+  padding: 112px 336px 0px 336px;
+}
+.Doctors_section .cont .doctor1 {
+  display: flex;
+  padding: 80px 64px;
+  justify-content: center;
+  text-align: center;
+}
+.Doctors_section .cont .doctor1 .card1 {
+  padding: 0px 130px 0px 157px;
+}
+.Doctors_section .cont .doctor1 .card1 h1 {
+  font-size: 24px;
+}
+.Doctors_section .cont .doctor1 .card1 p {
+  font-size: 18px;
+  font-weight: 500;
+}
+.Doctors_section .cont .doctor1 .card2 {
+  padding: 0px 130px 0px 130px;
+}
+.Doctors_section .cont .doctor1 .card2 h1 {
+  font-size: 24px;
+}
+.Doctors_section .cont .doctor1 .card2 p {
+  font-size: 18px;
+  font-weight: 500;
+}
+.Doctors_section .cont .doctor1 .card3 {
+  padding: 0px 157px 0px 130px;
+}
+.Doctors_section .cont .doctor1 .card3 h1 {
+  font-size: 24px;
+}
+.Doctors_section .cont .doctor1 .card3 p {
+  font-size: 18px;
+  font-weight: 500;
+}
+.Doctors_section .cont .doctor2 {
+  width: 100%;
+  display: flex;
+  padding: 0px 64px;
+  justify-content: center;
+  text-align: center;
+}
+.Doctors_section .cont .doctor2 .card4 {
+  padding: 0px 130px 0px 157px;
+}
+.Doctors_section .cont .doctor2 .card4 h1 {
+  font-size: 24px;
+}
+.Doctors_section .cont .doctor2 .card4 p {
+  font-size: 18px;
+  font-weight: 500;
+}
+.Doctors_section .cont .doctor2 .card5 {
+  padding: 0px 130px 0px 130px;
+}
+.Doctors_section .cont .doctor2 .card5 h1 {
+  font-size: 24px;
+}
+.Doctors_section .cont .doctor2 .card5 p {
+  font-size: 18px;
+  font-weight: 500;
+}
+.Doctors_section .cont .doctor2 .card6 {
+  padding: 0px 157px 0px 130px;
+}
+.Doctors_section .cont .doctor2 .card6 h1 {
+  font-size: 24px;
+}
+.Doctors_section .cont .doctor2 .card6 p {
+  font-size: 18px;
+  font-weight: 500;
+}
+.Doctors_section .cont .butt {
+  padding: 80px 800px 112px 880px;
+}
+.Doctors_section .cont .butt button {
+  padding: 12px 24px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+.Doctors_section .cont .butt button a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #000000;
+}
+
+.health_section {
+  width: 1005;
+  background-color: #ebe6e6;
+}
+.health_section .health_head {
+  text-align: center;
+  padding: 112px 0px 0px 0px;
+}
+.health_section .health_head p {
+  font-size: 16px;
+  font-weight: 500;
+}
+.health_section .health_head h1 {
+  font-size: 56px;
+}
+.health_section .health_head p1 {
+  font-size: 18px;
+}
+.health_section .mother_card {
+  padding: 80px 80px 112px 80px;
+  justify-content: center;
+}
+.health_section .mother_card .first_card {
+  justify-content: center;
+  justify-content: space-between;
+  text-align: center;
+  padding: 0px 0px 64px 0px;
+  display: flex;
+}
+.health_section .mother_card .first_card a {
+  font-size: 16px;
+  color: #000000;
+  text-decoration: none;
+}
+.health_section .mother_card .first_card a span {
+  padding-left: 20px;
+  font-size: 20px;
+}
+.health_section .mother_card .first_card .card1 {
+  background-color: #fff;
+  padding: 0px 64px 64px 80px;
+  border-radius: 5px;
+}
+.health_section .mother_card .first_card .card1 img {
+  padding: 24px 0px;
+}
+.health_section .mother_card .first_card .card1 h1 {
+  padding: 24px 16px 16px 16px;
+  font-size: 20px;
+}
+.health_section .mother_card .first_card .card1 p {
+  padding: 0px 16px 24px 16px;
+  font-size: 16px;
+}
+.health_section .mother_card .first_card .card2 {
+  background-color: #fff;
+  padding: 0px 64px 64px 80px;
+  border-radius: 5px;
+}
+.health_section .mother_card .first_card .card2 img {
+  padding: 24px 0px;
+}
+.health_section .mother_card .first_card .card2 h1 {
+  font-size: 20px;
+  padding: 24px 16px 16px 16px;
+}
+.health_section .mother_card .first_card .card2 p {
+  padding: 0px 16px 24px 16px;
+  font-size: 16px;
+}
+.health_section .mother_card .first_card .card3 {
+  background-color: #fff;
+  padding: 0px 64px 64px 80px;
+  border-radius: 5px;
+}
+.health_section .mother_card .first_card .card3 img {
+  padding: 24px 0px;
+}
+.health_section .mother_card .first_card .card3 h1 {
+  font-size: 20px;
+  padding: 24px 16px 16px 16px;
+}
+.health_section .mother_card .first_card .card3 p {
+  padding: 0px 16px 24px 16px;
+  font-size: 16px;
+}
+.health_section .mother_card .first_card .card4 {
+  background-color: #fff;
+  padding: 0px 64px 64px 80px;
+  border-radius: 5px;
+}
+.health_section .mother_card .first_card .card4 img {
+  padding: 24px 0px;
+}
+.health_section .mother_card .first_card .card4 h1 {
+  font-size: 20px;
+  padding: 24px 16px 16px 16px;
+}
+.health_section .mother_card .first_card .card4 p {
+  padding: 0px 16px 24px 16px;
+  font-size: 16px;
+}
+.health_section .mother_card .second_card {
+  justify-content: center;
+  justify-content: space-between;
+  text-align: center;
+  padding: 0px 0px 96px 0px;
+  display: flex;
+}
+.health_section .mother_card .second_card a {
+  font-size: 16px;
+  color: #000000;
+  text-decoration: none;
+}
+.health_section .mother_card .second_card a span {
+  padding-left: 20px;
+  font-size: 20px;
+}
+.health_section .mother_card .second_card .card5 {
+  background-color: #fff;
+  padding: 0px 64px 64px 80px;
+  border-radius: 5px;
+}
+.health_section .mother_card .second_card .card5 img {
+  padding: 24px 0px;
+}
+.health_section .mother_card .second_card .card5 h1 {
+  font-size: 20px;
+  padding: 24px 16px 16px 16px;
+}
+.health_section .mother_card .second_card .card5 p {
+  padding: 0px 16px 24px 16px;
+  font-size: 16px;
+}
+.health_section .mother_card .second_card .card6 {
+  background-color: #fff;
+  padding: 0px 64px 64px 80px;
+  border-radius: 5px;
+}
+.health_section .mother_card .second_card .card6 img {
+  padding: 24px 0px;
+}
+.health_section .mother_card .second_card .card6 h1 {
+  font-size: 20px;
+  padding: 24px 16px 16px 16px;
+}
+.health_section .mother_card .second_card .card6 p {
+  padding: 0px 16px 24px 16px;
+  font-size: 16px;
+}
+.health_section .mother_card .second_card .card7 {
+  background-color: #fff;
+  padding: 0px 64px 64px 80px;
+  border-radius: 5px;
+}
+.health_section .mother_card .second_card .card7 img {
+  padding: 24px 0px;
+}
+.health_section .mother_card .second_card .card7 h1 {
+  font-size: 20px;
+  padding: 24px 16px 16px 16px;
+}
+.health_section .mother_card .second_card .card7 p {
+  padding: 0px 16px 24px 16px;
+  font-size: 16px;
+}
+.health_section .mother_card .second_card .card8 {
+  background-color: #fff;
+  padding: 0px 64px 64px 80px;
+  border-radius: 5px;
+}
+.health_section .mother_card .second_card .card8 img {
+  padding: 24px 0px;
+}
+.health_section .mother_card .second_card .card8 h1 {
+  font-size: 20px;
+  padding: 24px 16px 16px 16px;
+}
+.health_section .mother_card .second_card .card8 p {
+  font-size: 16px;
+  padding: 0px 16px 24px 16px;
+}
+.health_section .mother_card .but {
+  padding: 50px 800px 70px 800px;
+}
+.health_section .mother_card .but button {
+  padding: 15px 30px;
+  border-radius: 5px;
+}
+.health_section .mother_card .but button a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #000000;
+}
+
+.Contact_section {
+  width: 100%;
+}
+.Contact_section .cont {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+.Contact_section .cont .contact_form {
+  padding: 112px 60px 112px 20px;
+  justify-content: center;
+  align-items: center;
+}
+.Contact_section .cont .contact_form .head {
+  width: 100%;
+}
+.Contact_section .cont .contact_form .head p {
+  font-size: 16px;
+  font-weight: 600;
+}
+.Contact_section .cont .contact_form .head h1 {
+  padding: 16px 0px 24px 0px;
+  font-size: 48px;
+  font-weight: 700;
+}
+.Contact_section .cont .contact_form .head p1 {
+  font-size: 18px;
+  font-weight: 400;
+  padding: 0px 0px 32px 0px;
+}
+.Contact_section .cont .contact_form .first-f {
+  justify-content: space-between;
+  display: flex;
+  padding: 24px 0px 0px 0px;
+}
+.Contact_section .cont .contact_form .first-f .div1 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 0px 24px 0px 0px;
+}
+.Contact_section .cont .contact_form .first-f .div1 .d-1 {
+  width: 330px;
+  height: 50px;
+}
+.Contact_section .cont .contact_form .first-f .div2 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.Contact_section .cont .contact_form .first-f .div2 .d-1 {
+  width: 330px;
+  height: 50px;
+}
+.Contact_section .cont .contact_form .second-f {
+  justify-content: space-between;
+  display: flex;
+  padding: 24px 0px;
+}
+.Contact_section .cont .contact_form .second-f .div1 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 0px 24px 0px 0px;
+}
+.Contact_section .cont .contact_form .second-f .div1 .d-1 {
+  width: 330px;
+  height: 50px;
+}
+.Contact_section .cont .contact_form .second-f .div2 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.Contact_section .cont .contact_form .second-f .div2 .d-1 {
+  width: 330px;
+  height: 50px;
+}
+.Contact_section .cont .contact_form .third-f {
+  justify-content: space-between;
+  display: flex;
+  padding: 0px 0px 24px 0px;
+}
+.Contact_section .cont .contact_form .third-f .div1 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 0px 24px 0px 0px;
+}
+.Contact_section .cont .contact_form .third-f .div1 .d-1 {
+  width: 330px;
+  height: 50px;
+}
+.Contact_section .cont .contact_form .third-f .div2 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.Contact_section .cont .contact_form .third-f .div2 .d-1 {
+  width: 330px;
+  height: 50px;
+}
+.Contact_section .cont .contact_form .four-f {
+  display: flex;
+  padding: 0px 0px 24px 0px;
+  flex-direction: column;
+}
+.Contact_section .cont .contact_form .four-f .wee {
+  height: 200px;
+  width: 685px;
+}
+.Contact_section .cont .contact_form .check {
+  padding: 7px 0px 25px 0px;
+}
+.Contact_section .cont .contact_form .but {
+  justify-content: space-between;
+}
+.Contact_section .cont .contact_form .but button {
+  border-radius: 5px;
+  padding: 7px 15px;
+  background-color: #000000;
+}
+.Contact_section .cont .contact_form .but button a {
+  color: #d8d4d4;
+  text-decoration: none;
+}
+.Contact_section .cont .pho {
+  padding: 112px 64px 112px 0px;
+}
+
+.help_section {
+  width: 100%;
+  background-color: #e7e6e6;
+}
+.help_section .cont {
+  padding: 112px 64px;
+}
+.help_section .cont .help {
+  width: 99%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 48px 80px 48px 48px;
+  box-sizing: border-box;
+  border: 1px solid black;
+}
+.help_section .cont .help .head h1 {
+  font-size: 40px;
+  font-weight: 700;
+}
+.help_section .cont .help .head p {
+  font-size: 18px;
+  font-weight: 400;
+}
+.help_section .cont .help .but button {
+  padding: 10px 20px;
+  background-color: #0e0d0d;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.carosel_section {
+  width: 100%;
+  padding: 112px 64px 188px 64px;
+}
+.carosel_section .cont {
+  text-align: center;
+}
+.carosel_section .cont .star {
+  padding: 0px 0px 32px 0px;
+}
+.carosel_section .cont .main {
+  text-align: center;
+  padding: 0px 0px 23px 0px;
+}
+.carosel_section .cont .small {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.sub_section {
+  background-color: #d8d4d4;
+  width: 100%;
+  padding: 112px 336px;
+}
+.sub_section .cont {
+  text-align: center;
+}
+.sub_section .cont .header {
+  padding: 0px 0px 24px 0px;
+}
+.sub_section .cont .header h1 {
+  font-size: 48px;
+  font-weight: 700;
+}
+.sub_section .cont .header p {
+  font-size: 18px;
+  padding: 24px 0px 0px 0px;
+}
+.sub_section .cont .lable .all {
+  height: 50px;
+  width: 430px;
+  border-radius: 5px;
+  padding: 0px 0px 16px 0px;
+  padding: 10px 30px;
+}
+.sub_section .cont .lable button {
+  padding: 10px 30px;
+  border-radius: 5px;
+  background-color: #000000;
+}
+.sub_section .cont .lable button a {
+  text-decoration: none;
+  color: #fff;
+}
+.sub_section .cont .lable p {
+  font-size: 12px;
+  padding: 16px 0px 0px 0px;
+}
+
+.footer_section {
+  width: 100%;
+}
+.footer_section .cont .first-div {
+  width: 100%;
+  padding: 80px 168px 80px 64px;
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+}
+.footer_section .cont .first-div .class1 {
+  width: 38%;
+}
+.footer_section .cont .first-div .class1 img {
+  padding: 0px 0px 20px 0px;
+}
+.footer_section .cont .first-div .class1 p {
+  font-size: 16px;
+  padding: 0px 0px 20px 0px;
+}
+.footer_section .cont .first-div .class1 .enter {
+  height: 48px;
+  width: 410px;
+}
+.footer_section .cont .first-div .class1 button {
+  width: 119px;
+  height: 48px;
+  border-radius: 5px;
+  background-color: #fdf6f6;
+}
+.footer_section .cont .first-div .class1 button a {
+  text-decoration: none;
+  color: #201f1f;
+}
+.footer_section .cont .first-div .class1 .p1 {
+  padding: 20px 0px 0px 0px;
+  font-size: 13px;
+  font-weight: 400;
+}
+.footer_section .cont .first-div .roll1 {
+  flex-direction: column;
+}
+.footer_section .cont .first-div .roll1 p {
+  font-size: 16px;
+  font-weight: 600;
+}
+.footer_section .cont .first-div .roll1 li {
+  padding: 8px 5px;
+  list-style: none;
+}
+.footer_section .cont .first-div .roll1 li i {
+  padding-right: 10px;
+}
+.footer_section .cont .first-div .line {
+  margin: 0px 64px;
+}
+.footer_section .cont .second-div {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 64px 50px 60px;
+}
+.footer_section .cont .second-div .two nav ul {
+  display: flex;
+  gap: 22px;
+}
+.footer_section .cont .second-div .two nav ul li {
+  list-style: none;
+}
+.footer_section .cont .second-div .two nav ul li a {
+  color: #000000;
+}/*# sourceMappingURL=style.css.map */
